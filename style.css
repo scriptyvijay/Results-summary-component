@@ -129,8 +129,9 @@ body {
 	justify-content: space-around;
 }
 
-.summary-container + h4 {
-	text-align: center;
+.summary-container h4 {
+	align-self: flex-start;
+	margin-left: 2rem;
 }
 
 .summary-box {
